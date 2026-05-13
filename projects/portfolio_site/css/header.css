@@ -15,18 +15,18 @@ header {
     color: var(--color-primary);
 }
 
-nav {
+header nav {
     display: flex;
 }
 
-nav a {
+header nav a {
     font-size: 18px;
     font-weight: 600;
     margin-left: 30px;
     color: var(--color-text);
 }
 
-nav a:hover {
+header nav a:hover {
     color: var(--color-primary);
 }
 
@@ -37,10 +37,10 @@ nav a:hover {
     .logo {
         font-size: 22px;
     }
-    nav {
+    header nav {
         flex-wrap: nowrap;
     }
-    nav a {
+    header nav a {
         font-size: 14px;
         margin-left: 10px;
     }
